@@ -358,17 +358,21 @@ h1, h2, h3, h4, .font-display {
 }
 
 .nav-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: var(--accent-pink);
   color: #ffffff;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 0.82rem;
   letter-spacing: 0.02em;
-  padding: 0.45rem 1.25rem;
+  padding: 0.45rem 1.85rem;
   border-radius: 9999px;
   text-decoration: none;
   transition: var(--transition-smooth);
   box-shadow: 0 4px 14px rgba(255, 42, 122, 0.4);
+  white-space: nowrap;
 }
 
 .nav-cta-btn:hover {

@@ -15,7 +15,7 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText('GHASRA482@gmail.com');
+    navigator.clipboard.writeText('ghasra482@gmail.com');
     setCopiedEmail(true);
     setTimeout(() => setCopiedEmail(false), 2500);
   };
@@ -32,7 +32,7 @@ export default function Contact() {
     setSubmitted(true);
     setTimeout(() => {
       // Optional mailto link launch
-      const mailtoLink = `mailto:GHASRA482@gmail.com?subject=${encodeURIComponent(formData.subject || 'Portfolio Inquiry')}&body=${encodeURIComponent(`Hi Asra,\n\n${formData.message}\n\nFrom: ${formData.name} (${formData.email})`)}`;
+      const mailtoLink = `mailto:ghasra482@gmail.com?subject=${encodeURIComponent(formData.subject || 'Portfolio Inquiry')}&body=${encodeURIComponent(`Hi Asra,\n\n${formData.message}\n\nFrom: ${formData.name} (${formData.email})`)}`;
       window.location.href = mailtoLink;
     }, 800);
   };
@@ -65,8 +65,8 @@ export default function Contact() {
                 </div>
                 <div className="contact-card-content">
                   <span className="contact-card-label">Email Address</span>
-                  <a href="mailto:GHASRA482@gmail.com" className="contact-card-val">
-                    GHASRA482@gmail.com
+                  <a href="mailto:ghasra482@gmail.com" className="contact-card-val">
+                    ghasra482@gmail.com
                   </a>
                 </div>
                 <button 
@@ -115,7 +115,7 @@ export default function Contact() {
             {/* Social Connection Pills */}
             <div className="contact-socials-row">
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/asrafathima-dev" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="btn-pink-pill btn-pill-small contact-social-pill"
@@ -123,7 +123,7 @@ export default function Contact() {
                 <LinkedinIcon size={16} /> LinkedIn Profile
               </a>
               <a 
-                href="https://github.com" 
+                href="https://github.com/asr-stack" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="btn-pink-pill btn-pill-small contact-social-pill"
@@ -137,7 +137,7 @@ export default function Contact() {
           <div className="contact-form-col">
             <div className="card-theme contact-form-card">
               <h3 className="form-card-title">Send a Direct Message</h3>
-              <p className="form-card-sub">Responses delivered directly to GHASRA482@gmail.com</p>
+              <p className="form-card-sub">Responses delivered directly to ghasra482@gmail.com</p>
 
               {submitted ? (
                 <div className="form-success-box">

@@ -81,7 +81,7 @@ export default function Hero() {
             {/* Social / Contact Links */}
             <div className="hero-socials">
               <a 
-                href="https://github.com" 
+                href="https://github.com/asr-stack" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="social-icon-btn" 
@@ -90,7 +90,7 @@ export default function Hero() {
                 <GithubIcon size={19} />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/asrafathima-dev" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="social-icon-btn" 
@@ -99,7 +99,7 @@ export default function Hero() {
                 <LinkedinIcon size={19} />
               </a>
               <a 
-                href="mailto:GHASRA482@gmail.com" 
+                href="mailto:ghasra482@gmail.com" 
                 className="social-icon-btn" 
                 aria-label="Email Asra"
               >
