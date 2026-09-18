@@ -1,16 +1,21 @@
-# React + Vite
+# Personal Resume Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This repository contains the source code for my personal resume portfolio website, built using the **MERN stack**.
 
-Currently, two official plugins are available:
+The portfolio showcases my **skills, projects, education, certifications, internships, and professional experience** through a modern and responsive web interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🛠️ Tech Stack
 
-## React Compiler
+* MongoDB
+* Express.js
+* React.js
+* Node.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🌐 Live Portfolio
 
-## Expanding the Oxlint configuration
+[View My Portfolio](YOUR_PORTFOLIO_LINK)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### 👩‍💻 Author
+
+**Asra Fathima**
+MCA Student | Cybersecurity & Digital Forensics
